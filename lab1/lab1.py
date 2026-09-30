@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("XAU_15m_data.csv", sep=";")
+df = pd.read_csv("data/XAU_15m_data.csv", sep=";")
 
 print(df.head())
 
